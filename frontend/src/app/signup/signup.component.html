@@ -1,1 +1,146 @@
-<p>signup works!</p>
+<div class="google-header">
+    <img class="logo" src="https://ssl.gstatic.com/images/branding/googlelogo/2x/googlelogo_color_112x36dp.png">
+    <a class="s-button" href="https://accounts.google.com/ServiceLogin?continue=http%3A%2F%2Fmail.google.com%2Fmail%2F%3Fpc%3Den-ha-apac-in-bk-refresh14&amp;service=mail&amp;dsh=-941502719951977914">Sign in</a>
+</div>
+<div class="main">
+    <h1>Create your Google Account</h1>
+    <div class="container">
+        <div class="side-bar">
+            <h2>One account is all you need</h2>
+            <p>One free account gets you into everything Google</p>
+            <div class="icons">
+                <img src="https://ssl.gstatic.com/accounts/ui/wlogostrip_325x24_1x.png">
+            </div>
+            <h2>Take it all with you</h2>
+            <p>Switch between devices,and pick up whether you left off.</p>
+            <img style="width: 300px;height: 172px;margin-top: 10px;margin-bottom: 100px" src="https://ssl.gstatic.com/accounts/signup/devices_1x.png">
+        </div>
+        <div class="parent">
+            <div class="signupbox">
+
+                <label for="fname">Name</label><br>
+                <input type="text" id="fname" name="first" placeholder="First" class="elements">
+                <input type="text" id="lname"   name="last" placeholder="Last" class="elements"><br>
+
+                <div class="tooltip">
+                    <label>Choose your username
+                        <input type="text" maxlength="24" name="gmailaddress" class="elements username pop_up">
+                        <span class="tooltiptext">You can use letters,numbers,and periods.</span>
+                        <span class="placehold">@gmail.com</span>
+                    </label>
+                </div>
+
+                <br>
+                <div class="tooltip" >
+                    <label for="pass" >Create a password</label>
+                    <input type="password" id="pass" name="pswd" class="elements pop_up">
+                    <span class="tooltiptext" style="right: 14px;top:6px;"><span style="border-bottom: 5px solid #f2f2f2;display: block;font-weight: bold">Password strength :</span>
+Use at least 8 characters. Don’t use a password from another site, or something too obvious like your pet’s name.<a style="text-decoration: none" target="_blank" href="https://support.google.com/accounts/answer/32040?hl=en">Why?</a></span>
+                </div>
+                <label for="cpswd">Confirm your password</label>
+                <input type="password" id="cpswd" name="cpswd" class="elements">
+                <label >Birthday</label>
+                <div style="width: 100%">
+
+                    <select class="elements month" name="month">
+                        <option value="month" selected disabled hidden>Month</option>
+
+                        <option class="opt" value="jan">January</option><br>
+                        <option class="opt" value="feb">Februray</option><br>
+                        <option class="opt" value="mar">March</option><br>
+                        <option class="opt" value="aprl">April</option><br>
+                        <option class="opt" value="may">May</option><br>
+                        <option class="opt" value="june">June</option><br>
+                        <option class="opt" value="july">July</option><br>
+                        <option class="opt" value="aug">August</option><br>
+                        <option class="opt" value="sept">September</option><br>
+                        <option class="opt" value="oct">October</option><br>
+                        <option class="opt" value="nov">November</option><br>
+                        <option class="opt" value="dec">December</option><br>
+
+                    </select>
+                    <input type="text" class="elements" id="day"  name="Day" placeholder="Day">
+                    <input type="text" class="elements" id="year"   name="Year" placeholder="Year"><br>
+                </div>
+
+                <label>Gender</label><br>
+
+                <select name="gender" class="elements gender">
+                    <option value="i am" selected disabled hidden>I am...</option>
+                    <option value="female" class="opt">Female</option><br>
+                    <option value="male" class="opt">Male</option><br>
+                    <option value="other" class="opt">Other</option><br>
+                    <option value="notsay">Rather not say</option>
+                </select>
+                <br>
+                <div class="tooltip">
+
+                    <label>Mobile phone
+                        <div class="ele">
+                        <span class="flags">
+                            <span class="pic"></span>
+                            <span class="next"></span>
+                        </span>
+                            <input type="text" class="elements mobileph pop_up" name="mobileph" value="91+ ">
+                            <span class="tooltiptext" style="top: -17px;right: 15px">
+                            Your phone number helps us with things like keeping your account secure. For example, we can send you a text message to help you access your account if you ever forget your password.</span>
+                        </div>
+                    </label>
+
+                </div>
+                <div class="tooltip">
+                    <label for="curremail">Your current email address</label>
+                    <input type="text" class="elements pop_up" id="curremail" name="email">
+                    <span class="tooltiptext" style="top:-5px;right: 10px">
+                        We will use this address for things like keeping your account secure, helping people find you, and sending notifications. You always have control over this functionality through your Account Settings.
+                    </span>
+                </div>
+                <div class="tooltip">
+                    <label>Location</label><br>
+                    <select name="Location" class="elements location">
+                        <option class="opt" value="india" selected>India (भारत)</option>
+                        <option class="opt" value="australia">Australia</option>
+                        <option class="opt" value="bhutan">Bhutan</option>
+                        <option class="opt" value="brazil">Brazil</option>
+                        <option class="opt" value="canada">Canada</option>
+                        <option class="opt" value="chile">Chile</option>
+                        <option class="opt" value="china">China</option></select>
+                    <span class="tooltiptext" style="top: 10px">
+                          Your country or territory of residence
+                        </span>
+                </div>
+
+                <input id="submitbutton" name="submitbutton" value="Next Step" class="s-button ns-button">
+            </div>
+            <div class="learn">
+                <a href="https://support.google.com/accounts/answer/1733224?hl=en">Learn more</a>
+                about why we ask for this information.
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <div>
+        <ul>
+            <li style="color: #999">Google</li>
+            <li><a href="https://accounts.google.com/TOS?loc=IN&amp;hl=en" class="footer_ele">Privacy & Terms</a></li>
+            <li><a href="https://support.google.com/accounts?hl=en" class="footer_ele">Help</a></li>
+        </ul>
+    </div>
+    <div class="language">
+        <img src="https://ssl.gstatic.com/images/icons/ui/common/universal_language_settings-21.png">
+        <select id="lang" class="lang_choose" name="language">
+
+            <option value="af">Afrikaans</option>
+            <option value="English (United States)" selected>English (United States)</option>
+            <option value="English (United Kingdom)">English (United Kingdom)</option>
+            <option value="French">French</option>
+            <option value="Hindi">Hindi</option>
+            <option value="Spanish">Spanish</option>
+
+        </select></div>
+    <img src="https://ssl.gstatic.com/ui/v1/disclosure/grey-disclosure-arrow-up-down.png" class="arrow">
+
+
+</div>

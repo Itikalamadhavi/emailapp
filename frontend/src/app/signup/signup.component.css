@@ -1,0 +1,479 @@
+*
+{
+    margin: 0px;
+    padding:0px;
+    border:0px;
+    box-sizing: border-box;
+}
+@font-face
+{
+    font-face-name: Open-Sans;
+    src :url(/Users/ayushimittal/PhpstormProjects/gmailpage/open-sans/OpenSans-Light.ttf);
+
+}
+html
+{
+    font:81.25% arial, helvetica, sans-serif;
+    line-height: 1 ;
+}
+.google-header
+{
+    background-color: #f1f1f1 ;
+    border:1px solid #e5e5e5;
+    padding:20px 40px 15px;
+    max-height: 200px;
+}
+.logo
+{
+    width: 112px;
+    height: 36px;
+}
+.s-button
+{
+    color: #ffffff;
+    background-color: #4888f0 ;
+    float: right;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 13px;
+    font-weight:normal;
+    border: 1px solid #3079ed;
+    height: 27px;
+    width: 66px;
+    padding: 7px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+.s-button:hover
+{
+    background-color: #357ae8;
+    border:1px solid #2f5bb7;
+}
+.main
+{
+    font-family: "Open Sans" , Arial ;
+    text-align: center;
+    color:#555;
+    margin: auto;
+
+}
+.main h1
+{
+    font-size: 38px;
+    font-weight: 300;
+    margin-top: 47px;
+    margin-bottom: 40px;
+    margin-left: auto;
+
+}
+.container
+{
+    padding:0px;
+
+}
+.side-bar
+{
+    width: 40%;
+    color: #737377;
+    margin: -8px;
+    display: inline-block;
+    position: relative;
+}
+.side-bar h2
+{   margin-top: 0px;
+    margin-bottom: 20px;
+    font-weight: 300;
+    font-size: 20px;
+}
+.side-bar p
+{
+    margin-bottom: 33px;
+    font-weight: 400;
+    font-size: 12px;
+}
+.icons {
+    margin-bottom: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
+}
+.parent
+{
+    display: inline-block;
+    position: relative;
+    margin-left: 30px;
+}
+.signupbox {
+    display: inline-block;
+    background-color: #f1f1f1;
+    color: #000;
+    margin-left: 8%;
+    padding: 24px;
+    width: 366px;
+    box-sizing: border-box;
+    font-weight: bold;
+    font-size: 13px;
+    text-align: left;
+    z-index: -1;
+}
+.learn
+{
+    position: absolute;
+    right: 0;
+    margin-top: 12px;
+    color: #999;
+    text-decoration: none;
+    line-height: 17px;
+}
+.learn a
+{
+    color: #15c;
+    text-decoration: none;
+
+}
+.elements
+{
+    width:100%;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    padding: 5px 8px;
+    margin-top: 6px;
+    margin-bottom: 18px;
+    margin-right: auto;
+    margin-left: auto;
+    display: inline-block;
+    font-size: 14px;
+    outline: none;
+    z-index: -1;
+}
+#fname
+{
+    display: inline;
+    width: 49%;
+    margin-left: 0px;
+    margin-right: auto;
+
+}
+#lname
+{
+    display: inline;
+    width: 49%;
+    margin-right: 0px;
+    margin-left: auto;
+}
+.username
+{
+    background-color: #ffffff;
+    position: relative;
+    z-index: 1;
+}
+.placehold
+{
+    position: absolute;
+    right: -14px;
+    margin-top: -46px;
+    margin-right: 12px;
+    font-size: 14px;
+    color: #a9a9a9;
+    font-weight: normal;
+    padding-right: 8px;
+    padding-top: 6px;
+    z-index: 1;
+}
+#day,#year
+{
+    width: 22%;
+    display: inline-block;
+    margin: auto;
+    font-size: 14px;
+}
+.month
+{
+    width: 42%;
+    margin-right: auto;
+    display: inline-block;
+    font-size: 11px;
+    font-weight: bold;
+    color: #444;
+    background-color: #f3f3f3;
+    padding: 8px 8px;
+}
+#year
+{
+    width: 33%;
+    margin-right: auto;
+    margin-right: 0px;
+}
+.gender,.location
+{
+    background-color: #f3f3f3;
+    padding:8px 8px;
+    font-size: 11px;
+    font-weight: bold;
+}
+.ns-button
+{
+    font-size: 11px;
+    width: 70px;
+    padding: 7px;
+    height: 28px;
+}
+
+select
+{
+    border: 1px solid #dcdcdc;
+    border-radius: 0px;
+    width: 92%;
+    height:30px;
+}
+.opt
+{
+    background-color: white;
+    padding-top: 10px;
+    font-size: 10px;
+
+
+}
+.opt:hover
+{
+    background-color: #f1f1f1;
+}
+.ele
+{
+    background-color: white;
+    height: 29px;
+    margin-bottom: 14px;
+    margin-top: 4px;
+    border: 1px solid #c0c0c0;
+    padding: 0px;
+}
+.flags
+{
+    width: 14%;
+    padding: 5px;
+    display: inline-flex;
+    background-color: white;
+    height: 13px;
+    margin: 0px;
+}
+.pic
+{
+    width: 20px;
+    height: 11px;
+    vertical-align: middle;
+    background: url(https://ssl.gstatic.com/i18n/phonenumbers/phoneinputwidget/flags4.png) no-repeat 0 -1694px;
+}
+.next
+{
+    background: url(https://ssl.gstatic.com/i18n/phonenumbers/phoneinputwidget/phone-input-arrow.png) no-repeat center center;
+    width: 10px;
+    height: 5px;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+.flags:hover
+{ background-color: #f1f1f1;}
+.mobileph
+{
+    width: 84.7%;
+    border-collapse: collapse;
+    border: none;
+    margin:0px;
+
+}
+.elements:hover
+{ border: 1px solid #B2B2B2;
+}
+select:hover
+{
+    background-color: #F7F7F7;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.2);
+}
+.elements:focus {
+    border: 1px solid #4d90fe;
+}
+.footer
+{
+    width: 100%;
+    margin-left: 0px;
+    border-top: 1px solid #ebebeb;
+    margin-top: 120px;
+    padding:15px;
+    margin-bottom: 10px;
+    position: relative;
+}
+ul
+{
+    list-style-type: none;
+    font-size: 10.6px;
+    margin-left: 20px;
+    font-family: Arial;
+    font-weight: 200;
+}
+li
+{
+    margin-right: 20px;
+    float: left;
+    text-decoration: none;
+
+}
+.footer_ele:link,.footer_ele:visited
+{ color: #333;
+    text-decoration: none;}
+.footer_ele:hover ,.learn a:hover
+{ text-decoration: underline;}
+.language
+{
+    display: inline-flex;
+    float: right;
+    margin-right: 10px;
+    vertical-align: middle;
+    position: absolute;
+    top:11px;
+    right: 40px;
+}
+.lang_choose
+{
+    background-color: rgb(248,248,248);
+    border: 1px solid rgb(166,166,166);
+    margin-left: 4px;
+    height:19px;
+}
+
+.arrow
+{
+    height: 12px;
+    float: right;
+    margin-right: -8px;
+
+
+}
+.tooltip
+{
+    position: relative;
+    display: inline;
+}
+.tooltiptext
+{
+    position: absolute;
+    right:330px;
+    box-shadow: 0px 0px 3px darkgray;
+    line-height: 1.5;
+    font-size: 13px;
+    font-weight: 500;
+    top: 10px;
+}
+
+.tooltip .tooltiptext
+{
+    background-color: #ffffff;
+    color: #000;
+    border: 1px solid #c3c3c3;
+    visibility: hidden;
+    width: 300px;
+    padding: 18px;
+    z-index: 1;
+}
+
+.pop_up:focus + span , .location:focus + span
+{
+    visibility: visible;
+}
+.tooltip .tooltiptext::after
+{
+    content: " ";
+    position: absolute;
+    top: 10%;
+    left: 100%; /* To the right of the tooltip */
+    margin-top: 7px;
+    border-width: 7px;
+    border-style: solid;
+    border-color: transparent transparent transparent white;
+
+}
+.mobileph:hover {
+    border: 1px solid #B2B2B2;
+    border-top: none;
+    border-right: none;
+}
+@media (max-width: 800px)
+{
+    *
+    {margin:0px}
+    .google-header
+    {
+        width: 100%;
+        padding: 18px;
+    }
+    .learn
+    {
+        float: none;
+        margin-right: 0px;
+    }
+    .main h1
+    {
+        font-size: 18px;
+        font-weight: normal;
+        margin: 4px ;
+        margin-left: -51px;
+
+    }
+    .s-button
+    {
+        padding: 11px;
+        height: 37px;
+    }
+    .footer,.ns-button
+    {
+        width: 100%;
+    }
+    .side-bar,.tooltiptext,.language,.arrow
+    {
+        display: none;
+    }
+    .signupbox
+    {
+        display: block;
+        width: 328px;
+        text-align: left;
+        padding-left: 22px;
+        padding-right: 22px;
+        margin: auto;
+        padding-top: 15px;
+        padding-bottom: 40px;
+
+    }
+    .elements
+    {
+        height: 37px;
+        display: inline-block;
+        padding: 0px 8px;
+
+    }
+    .container
+    {
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+    }
+    body
+    {
+        background-color: #f1f1f1;
+        width: auto;
+    }
+    .ele
+    {
+        height: 39px;
+    }
+    .main
+    {
+        width: auto;
+        margin: 0px;
+        padding: 22px;
+    }
+    .placehold
+    {
+        margin-top: -49px;
+    }
+
+}
